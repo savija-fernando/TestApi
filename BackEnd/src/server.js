@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 
-app.get('/test', (req, res)=>{
+app.get('/TestApi', (req, res)=>{
     res.send("Hello world Im savija");
 });
 
